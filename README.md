@@ -16,7 +16,7 @@ Sistem simulasi kendali gerak berbasis mikrokontroler **ESP32** menggunakan sens
 | Gerakan Eksternal | Sensor PIR (GPIO 4) | Servo 1–5 | Saat terdeteksi gerakan (HIGH), aktuator merespons ke posisi target lalu kembali ke posisi awal (0° / 1500 µs) |
 
 ## How to Run
-1. Buka tautan proyek Wokwi: `[tempel link proyek Wokwi di sini]`.
+1. Buka tautan proyek Wokwi: `[https://wokwi.com/projects/480736138276788225]`.
 2. Pastikan library **`ESP32Servo`** sudah terpasang di **Project Libraries** pada Wokwi.
 3. Klik tombol **Start Simulation / Play** (hijau) untuk menjalankan kode pada `sketch.ino` dan amati pergerakan servo serta keluaran nilai PWM pada **Serial Monitor**.
 4. Untuk menguji respons gerakan eksternal, picu sinyal `HIGH` pada sensor PIR selama simulasi berjalan.
